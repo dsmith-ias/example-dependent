@@ -11,7 +11,7 @@
   <url>https://github.com/dsmith-ias/example-dependent</url>
 
   <properties>
-    <version.number>1.0</version.number>
+    <version.number>2.0</version.number>
     <build.number>0-SNAPSHOT</build.number>
   </properties>
 
@@ -19,7 +19,7 @@
     <dependency>
       <groupId>com.integralads.dsmith</groupId>
       <artifactId>example-commons</artifactId>
-      <version>[1,2)</version>
+      <version>[2,3)</version>
     </dependency>
 
     <dependency>

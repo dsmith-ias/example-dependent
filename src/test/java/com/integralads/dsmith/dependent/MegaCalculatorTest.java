@@ -6,6 +6,7 @@ import org.junit.Test;
 public class MegaCalculatorTest {
     @Test
     public void testSquare() {
-        Assert.assertEquals(MegaCalculator.square(2), 4);
+        MegaCalculator megaCalculator = new MegaCalculator();
+        Assert.assertEquals(megaCalculator.square(2), 4);
     }
 }
